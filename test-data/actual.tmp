@@ -1,0 +1,35 @@
+BATT_VOLTAGE_PORT set to: 3143
+set_batt_from_ports(&batt );
+batt is {
+  .volts   = 3143
+  .percent = 17
+  .mode    = 1
+}
+
+Checking results for display bits
+set_display_from_batt(batt, &display);
+
+display is:
+        3         2         1         0
+index: 10987654321098765432109876543210
+bits:  00010000100000000000000110100011
+guide:  |    |    |    |    |    |    |
+index:  30        20        10        0
+
+Running batt_update()
+
+BATT_DISPLAY_PORT is:
+index:  3         2         1    0    0
+index: 10987654321098765432109876543210
+bits:  00010000100000000000000110100011
+guide:  |    |    |    |    |    |    |
+index:  30        20        10        0
+
+Battery Meter Display:
++-^^^-+            #  ####     
+|     |            #     #     
+|     |            #     #     
+|     |            #     #     
+|     |            #     #  %  
+|#####|            #     #     
++-----+            #     #     

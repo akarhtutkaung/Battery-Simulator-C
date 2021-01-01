@@ -1,0 +1,12 @@
+
+*** These modified files were found in JOE when it aborted on Sat Oct  5 01:47:51 2019
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/home/kaung006/Desktop/a2-code/test_batt_main.sh
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc
